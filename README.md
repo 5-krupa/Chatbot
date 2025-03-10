@@ -85,26 +85,6 @@ Once you're done, deactivate the virtual environment:
 ```sh
 deactivate
 ```
-
-## Git Commands
-### Initialize a Git Repository
-```sh
-git init
-```
-
-### Add and Commit Files
-```sh
-git add .
-git commit -m "Initial commit"
-```
-
-### Push to GitHub (Replace with your repository URL)
-```sh
-git remote add origin https://github.com/yourusername/chatbot.git
-git branch -M main
-git push -u origin main
-```
-
 ## License
 This project is licensed under the MIT License.
 
