@@ -1,0 +1,127 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Howdy"],
+            "responses": ["Hello! Welcome to Britsure.", "Hi there! How can I assist you today?", "Hey! Need any help with insurance or jobs?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Take care", "Catch you later"],
+            "responses": ["Goodbye! Have a great day!", "See you next time!", "Take care, feel free to reach out anytime!"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "I appreciate it", "Much obliged"],
+            "responses": ["You're welcome!", "My pleasure!", "Glad I could help!"],
+            "context": [""]
+        },
+        {
+            "tag": "about_britsure",
+            "patterns": ["What is Britsure?", "Tell me about Britsure", "What does Britsure do?", "Explain Britsure"],
+            "responses": ["Britsure is an innovative insurance tech company that provides seamless digital insurance solutions. We simplify policy management, claims, and risk assessments using cutting-edge technology."],
+            "context": [""]
+        },
+        {
+            "tag": "services",
+            "patterns": ["What services does Britsure offer?", "Tell me about Britsure's services", "What can Britsure help with?"],
+            "responses": [
+                "Britsure offers a range of services including digital insurance policy management, AI-driven claim processing, fraud detection, and personalized risk assessment.",
+                "At Britsure, we specialize in seamless insurance management, automated claims processing, and advanced analytics for insurers."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "insurance_types",
+            "patterns": ["What types of insurance does Britsure provide?", "Tell me about Britsure's insurance policies"],
+            "responses": [
+                "Britsure supports a variety of insurance types, including health, auto, home, travel, and business insurance.",
+                "We work with multiple insurers to offer a wide range of policies tailored to your needs."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "claims",
+            "patterns": ["How do I file a claim?", "What is the process for filing an insurance claim?", "Can I file a claim online?"],
+            "responses": [
+                "You can file a claim through Britsure's online portal. Simply log in, upload the necessary documents, and track your claim in real-time.",
+                "To file a claim, visit our website, enter your policy details, submit the required documents, and our AI-driven system will process it efficiently."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "policy_management",
+            "patterns": ["How can I manage my insurance policy?", "Can I update my policy online?", "How do I check my policy details?"],
+            "responses": [
+                "You can manage your policy through Britsure’s dashboard. Log in to view, update, or renew your policy anytime.",
+                "Britsure allows you to access all your policy details in one place. You can also make modifications or request policy updates online."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "fraud_detection",
+            "patterns": ["How does Britsure detect fraud?", "Does Britsure have fraud prevention?", "How secure is Britsure's system?"],
+            "responses": [
+                "Britsure uses advanced AI-driven fraud detection systems to identify suspicious claims and prevent fraudulent activities.",
+                "We employ cutting-edge machine learning models to analyze claims and detect anomalies in real time, ensuring a secure insurance process."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "job_portal",
+            "patterns": ["Does Britsure have a job portal?", "Can I apply for a job at Britsure?", "Where can I find Britsure's job openings?"],
+            "responses": [
+                "Yes! Britsure offers a job portal for students and professionals. You can explore job opportunities on our website.",
+                "Britsure is always looking for talented individuals! Visit our Careers page to apply for open positions."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "internships",
+            "patterns": ["Are there internship opportunities at Britsure?", "Can students apply for internships at Britsure?", "Does Britsure offer internships?"],
+            "responses": [
+                "Yes! Britsure offers internship programs for students in various fields such as software development, data analytics, and insurance consulting.",
+                "We provide internship opportunities where students can gain hands-on experience in the insurance-tech industry."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "apply_for_job",
+            "patterns": ["How can I apply for a job?", "What is the application process at Britsure?", "Where can I submit my resume?"],
+            "responses": [
+                "To apply for a job at Britsure, visit our Careers page, select a role, and submit your application online.",
+                "You can submit your resume through Britsure’s job portal. We will review your application and get back to you if you are shortlisted."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "interview_process",
+            "patterns": ["What is the interview process like at Britsure?", "How many rounds are there in Britsure's hiring process?", "Tell me about Britsure's hiring process"],
+            "responses": [
+                "Britsure's hiring process typically includes an online application, initial screening, technical interview, and a final HR round.",
+                "Our interview process varies by role but generally consists of an application review, an initial interview, a skills assessment, and a final discussion with the hiring team."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "benefits",
+            "patterns": ["What are the employee benefits at Britsure?", "Does Britsure offer work-from-home?", "What perks do Britsure employees get?"],
+            "responses": [
+                "Britsure offers competitive salaries, health insurance, flexible work hours, remote work options, and career development programs.",
+                "We provide a range of benefits including medical coverage, paid time off, skill development programs, and work-life balance initiatives."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["How can I contact Britsure?", "What is Britsure's customer support number?", "Where is Britsure located?"],
+            "responses": [
+                "You can contact Britsure via our support email at support@britsure.com or call our helpline at +1-800-123-4567.",
+                "Our headquarters is located in [Your Location]. Visit our Contact Us page for more details."
+            ],
+            "context": [""]
+        }
+    ]
+}
